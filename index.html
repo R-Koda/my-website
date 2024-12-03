@@ -3,10 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple GitHub Pages website.</p>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">My Portfolio</h1>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to My Personal Website</h2>
+            <p>I’m a passionate developer focused on building clean, modern, and functional websites.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I’m a web developer with a passion for creating beautiful and functional websites. With a strong background in both design and development, I can bring ideas to life in the digital world.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React & Vue.js</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <h3>Project 1</h3>
+                    <p>A brief description of the project.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2</h3>
+                    <p>A brief description of the project.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 3</h3>
+                    <p>A brief description of the project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Personal Website. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
